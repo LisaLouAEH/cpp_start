@@ -15,7 +15,7 @@ int main(){
 	int i = 0;
 	int square = 0;
 
-	while (i != 9){
+	while (i <= 9){
 		std::cout << i << "  "<< square << "\n";
 		i++;
 		square = i * i;
