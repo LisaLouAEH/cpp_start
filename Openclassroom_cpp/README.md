@@ -113,5 +113,85 @@ I've to initialize 2 variables whose contain values we want to powerize.
 double const a(4), b(3);
 double const res= pow(a, b);
 ```  
+## control structures.  
+---
+  same symbole than in C for conditions.  
 
-
+*if structure* :  
+  
+```
+if(condition){
+    instruction;
+}
+else if(condition 2){
+    instruction2;
+}
+else{
+    default instruction;
+}
+```  
+  
+*switch structure* :  
+  
+```
+int varName(2);
+switch(varName){
+    case 1:
+        instruction;
+        break;
+    
+    case 2:
+        instruction2;
+        break;
+    
+    case 3:
+        instruction3;
+        break;
+    
+    default:
+        default instruction;
+        break;
+}
+```  
+  
+*boolean* :  
+  
+```
+bool solid(true);
+if(solid == true){
+    instruction;
+}
+```  
+  
+*combining* :  
+  
+|synthax| meanings|
+|-------|---------|
+| 2pipes | or |
+| &&| and |
+| ! | not |
+  
+*Loop* :  
+  
+<< while this condition is complete do something>> 
+``` 
+while(conditions)){
+    instruction;
+}
+```  
+  
+<< do something one time at least before verifying the condition and 
+then, do it again until the condition is complete>>
+```
+do{
+    instruction;
+}while(condition);
+```
+  
+<<For, the all in one structure (initialization, condition and variable modification)>>  
+```
+int varNumber(0);
+for(varNumber = 0, varNumber < 10, varNumber++){
+    cout << "you're level" << varNumber << endl;
+}
+```
