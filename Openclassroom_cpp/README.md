@@ -95,3 +95,23 @@ It apears i should add `cin.ignore();` after each `cin >> stuffs;`, to be sure t
 [Warning] We don't get the entire result if we divide int variable when the result is supposed to be double. remember to use double when we have to divide, just in case.  
   
 Cf: "basic_calculator.cpp" little personal project.  
+  
+### Other Math operator |  
+  
+|operation|expression|synthax|example|
+|---------|----------|-------|-------|
+|roots|sqrtx|sqrt()|res = sqrt(n);|
+|sinus|sin(x)|sin()|res = sin(n);|
+|cosinus|cos(x)|cos()|res = cos(n)|
+|exponent| Ex|exp()|res = exp(n)|
+|...|...|...|...|
+  
+[NB] Singular case for power expression:  
+  
+I've to initialize 2 variables whose contain values we want to powerize.  
+```
+double const a(4), b(3);
+double const res= pow(a, b);
+```  
+
+

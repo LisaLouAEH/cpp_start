@@ -12,7 +12,7 @@ int main(){
     cout << "Please start by typing a number: \n --> ";
     cin >> a;
     cout << "what do you want to do to this number ?\n" <<
-    "(1 = add, 2 = substract, 3 = multiply, 4 = divide)\n --> ";
+    "(1 = add, 2 = substract, 3 = multiply, 4 = divide, 5 = power)\n --> ";
     cin >> opp;
     cout << "Then type another number to complete the operation:\n --> ";
     cin >> b;
@@ -35,6 +35,11 @@ int main(){
         case 4:
         result = a / b;
         cout << "Ok!! so " << a << " / " << b << " = " << result << endl;
+        break;
+
+        case 5:
+        result = pow(a,b);
+        cout << "Ok!! so " << a << " ^ " << b << " = " << result << endl;
         break;
     }
     
