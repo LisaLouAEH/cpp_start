@@ -21,6 +21,13 @@ int main(){
     cin >> n;
 
     double square = sqrt(n);
-    cout << "Well you type " << n << " and the square is " << square << "!!\n";
+    cout << "Well you type " << n << " and the root is " << square << "!!\n";
+
+    double d;
+    cout << "Now, let's try something else.\n Please type an other number \n --> ";
+    cin >> d;
+    double division = square / d;
+    cout << "if you divide the previous root by " << d << " you get " << division << endl;
+    
     return 0;
 }

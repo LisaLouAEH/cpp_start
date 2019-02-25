@@ -9,7 +9,7 @@
 |string|manage spaces and other string stuffs|
 |cmath|complete the math basics with more math|
   
-  
+
 ## Variables |  
   
 A variable is just a data wich is supposed to change.  
@@ -92,3 +92,6 @@ It apears i should add `cin.ignore();` after each `cin >> stuffs;`, to be sure t
 |/|divise|
 |%|modulo|  
   
+[Warning] We don't get the entire result if we divide int variable when the result is supposed to be double. remember to use double when we have to divide, just in case.  
+  
+Cf: "basic_calculator.cpp" little personal project.  
